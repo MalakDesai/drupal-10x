@@ -1,0 +1,38 @@
+# This file should contain only rules that are specific to this project. For
+# ignoring OS and IDE metadata files, please configure a global gitignore on
+# your local machine.
+# @see https://github.com/sb2nov/mac-setup/blob/master/Git/gitignore.md
+
+# Include Drupal settings files
+!web/sites/*/settings.php
+!web/sites/*/services.yml
+
+# Ignore local and generated settings files
+web/sites/*/settings.local.php
+web/sites/*/settings.build.php
+web/sites/*/services.build.yml
+web/sites/*/settings.ddev.php
+web/sites/default/secrets.settings.php
+
+# Ignore Drupal files
+web/sites/*/files/
+
+# Ignore Drupal contrib downloaded by Composer
+drush/contrib/
+web/core/
+web/modules/contrib/
+web/themes/contrib/
+web/profiles/contrib/
+
+# Ignore regular Composer dependencies
+vendor/
+
+# Ignore local environment settings files
+.vscode/
+
+# Ignore MacOS files
+.idea/
+.DS_Store
+
+# Ignore DDEV Solr indices
+.ddev

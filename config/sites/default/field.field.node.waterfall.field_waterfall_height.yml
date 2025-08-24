@@ -1,0 +1,23 @@
+uuid: af7d9d9b-5918-4345-878e-874f1f773a5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_waterfall_height
+    - node.type.waterfall
+id: node.waterfall.field_waterfall_height
+field_name: field_waterfall_height
+entity_type: node
+bundle: waterfall
+label: 'Waterfall height (meters)'
+description: 'Enter height of waterfall in meters.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: meters
+field_type: integer
