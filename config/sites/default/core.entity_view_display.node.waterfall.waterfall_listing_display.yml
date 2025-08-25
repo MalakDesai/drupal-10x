@@ -50,7 +50,7 @@ third_party_settings:
                 label: hidden
                 settings:
                   image_link: content
-                  image_style: medium
+                  image_style: 500x500_square
                   image_loading:
                     attribute: lazy
                 third_party_settings: {  }
