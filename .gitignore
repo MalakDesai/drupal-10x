@@ -33,6 +33,3 @@ vendor/
 # Ignore MacOS files
 .idea/
 .DS_Store
-
-# Ignore DDEV Solr indices
-.ddev
