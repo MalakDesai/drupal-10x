@@ -1,0 +1,5 @@
+name: Simple Smart Classy Version
+type: theme
+description: “A sleek & practical theme for curious minds.”
+core_version_requirement: ^9 || ^10
+base theme: stable9
