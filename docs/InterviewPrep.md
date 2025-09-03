@@ -96,7 +96,7 @@ Example: {% for item in items %}
 
 Simple Conditional Display: Use an if statement to decide whether to render a piece of markup.
 
-Example: {% if show_image %}<img src="{{ image_url }}">{% endif %}
+Example: {% if show_image %}`<img src="{{ image_url }}">`{% endif %}
 
 Print Variables and Apply Filters: This is Twig's primary job. Print the clean variables passed from preprocess, using simple filters for display purposes.
 
@@ -110,7 +110,7 @@ Ans. As a lead, my approach is to build these quality gates directly into our te
 a. Accessibility (A11y)
 Accessibility isn't a feature we add at the end; it's a fundamental requirement from the start.
 
-Foundation in Semantic HTML: We enforce a strict policy of using semantic HTML. Using <nav>, <main>, <button>, and proper heading structures solves a huge percentage of accessibility issues before they even start.
+Foundation in Semantic HTML: We enforce a strict policy of using semantic HTML. Using `<nav>, <main>, <button>`, and proper heading structures solves a huge percentage of accessibility issues before they even start.
 
 Keyboard Navigation is Non-Negotiable: During development and code reviews, one of the first manual checks is to tab through the page. Every interactive element must be reachable and have a clear, visible :focus state.
 
